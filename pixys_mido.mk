@@ -27,7 +27,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 #Gapps
-BUILD_WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
 
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
