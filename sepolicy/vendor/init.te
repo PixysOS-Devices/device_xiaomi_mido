@@ -20,7 +20,6 @@ allow init sysfs_battery_supply:file setattr;
 allow init wcnss_device:chr_file write;
 
 # Allow init to chown/chmod on pseudo files in /sys
-allow init sysfs_type:file { setattr };
 allow init proc:file { getattr relabelfrom write };
 allow init sysfs_hgain:file { getattr relabelfrom write };
 allow init sysfs_mgain:file { getattr relabelfrom write };
